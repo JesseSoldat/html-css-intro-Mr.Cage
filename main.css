@@ -105,6 +105,9 @@ img.linkedImg {
   max-width: 90%;
   margin-top: 30%;
 }
+img.linkedImg:hover {
+  transform: scale(1.5,1.5);
+}
 p.linkedP {
   padding: 1em;
   margin: 10px 15px 10px;
