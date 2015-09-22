@@ -35,10 +35,18 @@ a {
   padding: 20px;
   margin: 5px auto;
   text-align: center;
+  -webkit-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+
 }
 a:hover {
-  background-color: #99995C;
+  background: url(img/swirl.png);
   text-transform: uppercase;
+  z-index: 4;
+}
+.overlay:hover {
+  background-color: rgba(153, 153, 92, .5);
+  z-index: 3;
 }
 h1 {
   font-size: 3em;
@@ -95,6 +103,8 @@ img:hover {
   transform: scale(1.4,1.4);
 
 }
+
+
 div.linkedDiv {
   max-width: 40%
 }
