@@ -95,6 +95,24 @@ img:hover {
   transform: scale(1.4,1.4);
 
 }
+div.linkedDiv {
+  max-width: 40%
+}
+
+img.linkedImg {
+  display: inline;
+  float: left;
+  max-width: 90%;
+  margin-top: 30%;
+}
+p.linkedP {
+  padding: 1em;
+  margin: 10px 15px 10px;
+  display: inline;
+  float: right;
+  max-width: 60%;
+  text-indent: 2.0em;
+}
 
 
    
