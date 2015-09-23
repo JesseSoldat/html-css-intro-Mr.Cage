@@ -41,8 +41,10 @@ a {
 
 }
 a:hover {
-  background: url(img/swirl.png);
+  background: url(img/diag_pattern.png);
+  background-color: rgba(153,153,92, .5);
   text-transform: uppercase;
+  border: 2px solid rgb(153,153,92);
  
 }
 
@@ -91,7 +93,7 @@ aside.right {
 div.center {
   margin: auto; 
 }
-img {
+div.center img {
   margin: 10px auto;
   padding: 10px;
   display: block;
@@ -133,15 +135,29 @@ p.linkedP {
   box-shadow: none;
   border: none;
   background-color: none;
-  margin: 10px auto;
   max-width: 25%;
   transition: all 2s ease;
-  margin: 10px auto;
-  padding: none;
+  margin: 10px 10px;
+  padding: 0;
+  display: inline;
+  
+}
+#butterfly2 {
+  float: right;
+  box-shadow: none;
+  border: none;
+  background-color: none;
+  margin: 10px 10px;
+  max-width: 35%;
+  transition: all 2s ease;
+  padding: 0;
   display: inline;
   
 }
 #butterfly:hover {
+transform: rotateY(360deg);
+}
+#butterfly2:hover {
 transform: rotateY(360deg);
 }
 
