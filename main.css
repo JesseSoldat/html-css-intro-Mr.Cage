@@ -106,8 +106,6 @@ img:hover {
   transform: scale(1.4,1.4);
 
 }
-
-
 div.linkedDiv {
   max-width: 40%
 }
@@ -117,16 +115,22 @@ img.linkedImg {
   float: left;
   max-width: 90%;
   margin-top: 30%;
+  margin-left: 10px;
+  border: 1.5px solid black;
+  background-color: white;
+  box-shadow: 10px 10px 5px 5px black;
+  transition: all 2s ease;
+  padding: 5px;
 }
 img.linkedImg:hover {
   transform: scale(1.5,1.5);
 }
 p.linkedP {
   padding: 1em;
-  margin: 10px 15px 10px;
+  margin: 10px auto;
   display: inline;
   float: right;
-  max-width: 60%;
+  max-width: 65%;
   text-indent: 2.0em;
 }
 
