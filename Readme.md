@@ -1,9 +1,3 @@
-# For all of you Nicolas Cage fans (I know you are there) heading
+This was our first project using HTML and CSS. Since we were introduced to a website that provides pictures of Nicolas Cage as place holders, I chose to make my page related to him.
 
-##### h4 tag
-
-* item 1
-* item 2
-* item 3
-
-[this is a link](http://github.com)
+https://cage-page.surge.sh/
